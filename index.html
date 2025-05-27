@@ -1,0 +1,912 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neural Network AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-body G-align-center">
+                <a href="index.html" class="header-logo G-flex">
+                    <img class="img-desktop" src="assets/images/logo.svg" alt="logo">
+                    <img class="img-mobile" src="assets/images/logoMobile.svg" alt="">
+                </a>
+
+                <nav class="menu">
+
+                    <ul class='menu-list G-align-center'>
+
+                        <li class="menu-item">
+                            <a class='menu-link' href="#possibilities">Возможности</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class='menu-link' href="#howWork">Как работает</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class='menu-link' href="#tools">Инструменты</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="header-mobile-actions">
+                            <button class="btn-login">Вход</button>
+                        </li>
+                        <li class="header-mobile-actions">
+                            <button class="btn-register G-center">
+                                <span>Регистрация</span>
+                            </button>
+                        </li>
+
+
+                    </ul>
+
+
+                </nav>
+
+                <div class="header-actions G-align-center">
+                    <button class="btn-login">Вход</button>
+                    <button class="btn-register ">
+                        <span>Регистрация бесплатно</span>
+                    </button>
+                </div>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-bg"></div>
+    </header>
+
+    <main class="main">
+
+        <section class="hero-section animate-section">
+            <div class="container">
+                <div class="hero-body">
+                    <div class="hero-info G-column-center">
+                        <span>Нейросеть для создания вирусных</span>
+                        <h1><b class="text-gradient">Reels и Shorts</b></h1>
+                        <p>Опиши идею, тему или суть ролика — и получи готовое вертикальное видео, заточенное
+                            под алгоритмы соцсетей</p>
+                        <button class="hero-btn big-bnt">Попробовать бесплатно</button>
+                    </div>
+
+                    <div class="hero-media G-flex">
+                        <div class="hero-media-picture">
+                            <img class="img-desktop" src="assets/images/heroMedia.webp" alt="">
+                            <img class="img-mobile" src="assets/images/starStruck2.webp" alt="">
+                        </div>
+
+                        <div class="hero-icons G-flex">
+                            <img src="assets/images/heroIcons.webp" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="star-struck G-flex">
+                        <img  src="assets/images/starStruck.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about-us-section animate-section">
+            <div class="container">
+                <div class="about-us-body">
+                    <div class="section-tag"><b class="text-gradient">О нейросети</b></div>
+                    <p class="about-us-info ">Наша Нейросеть — инструмент нового поколения для <b class="text-gradient2">создания
+                        вирусных</b>
+                        <span class="desktop-text-wrap">
+                            <b class="text-gradient3">роликов</b>. Наша технология
+                        анализирует нишу и успешные сценарии,
+                        </span>
+                        чтобы помочь снимать <span class="text-gradient2">креативные и цепляющие видео</span></p>
+
+
+
+                    <div class="about-us-items G-flex">
+
+                        <div class="about-info-item G-flex-column">
+                            <h3 class="block-title">Для кого эта Нейросеть</h3>
+                            <p class="block-text">Нейросеть создана для тех, кто хочет расти в соцсетях без затрат
+                                на монтаж <span class="mobile-text-wrap">и поиск
+                                идей</span></p>
+                            <button class="about-btn small-bnt">Начать бесплатно</button>
+                        </div>
+                        <div class="about-us-item G-flex-column">
+
+                            <h3 class="block-title">Блогеры <span class="desktop-text-wrap">и креаторы</span></h3>
+                            <p>Cтабильный поток <span class="desktop-text-wrap">Reels/ <span class="mobile-text-wrap">Shorts без выгорания</span></span></p>
+                            <div class="about-item-img G-flex">
+                                <img class="img-desktop" src="assets/images/aboutImg1.webp" alt="">
+                                <img class="img-mobile" src="assets/images/aboutImg1Mobile.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="about-us-item G-flex-column">
+
+                            <h3 class="block-title">Эксперты <span class="text-wrap">и предприниматели</span></h3>
+                            <p>Упаковка знаний <span class="text-wrap">в короткие ролики</span></p>
+                            <div class="about-item-img G-flex">
+                                <img class="img-desktop" src="assets/images/aboutImg2.webp" alt="">
+                                <img class="img-mobile" src="assets/images/aboutImg2Mobile.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="about-us-item G-flex-column">
+
+                            <h3 class="block-title">Маркетологи <span class="desktop-text-wrap">и SMM-щики</span></h3>
+                            <p>Результат без участия <span class="text-wrap">видеомонтажёров</span></p>
+                            <div class="about-item-img G-flex">
+                                <img class="img-desktop" src="assets/images/aboutImg3.webp" alt="">
+                                <img class="img-mobile" src="assets/images/aboutImg3Mobile.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="possibilities" class="possibilities-section animate-section">
+            <div class="container">
+                <div class="possibilities-body">
+                    <div class="section-tag"><b class="text-gradient">Возможности</b></div>
+                    <div class="section-titles">
+                        <h2>Что умеет наша нейросеть</h2>
+                        <p>Ты даёшь идею — она делает контент</p>
+                    </div>
+
+                    <div class="possibilities-columns G-flex-column">
+                        <div class="possibilities-column G-flex">
+                            <div class="possibilities-info-item yellow-item G-flex-column">
+                                <h3 class="block-title">Генерирует идеи и сценарии</h3>
+                                <p class="block-text">Не знаешь, с чего начать? <span class="desktop-text-wrap">Дай тему — получи</span>
+                                    готовый скрипт</p>
+                            </div>
+                            <div class="possibilities-img-item desktop-block G-flex">
+                                <img src="assets/images/possibilitiesImg1.webp" alt="">
+
+                            </div>
+                            <div class="possibilities-mobile-images">
+                                <div class="possibilities-mobile-img  G-flex">
+                                    <img class="img-desktop" src="assets/images/possibilitiesImg1.webp" alt="">
+                                    <img class="img-mobile" src="assets/images/possibilitiesImg1Mobile.webp" alt="">
+                                </div>
+                                <div class="possibilities-mobile-img G-flex">
+                                    <img class="img-desktop" src="assets/images/possibilitiesImg2.webp" alt="">
+                                    <img class="img-mobile" src="assets/images/possibilitiesImg2Mobile.webp" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="possibilities-info-item blue-item G-flex-column">
+                                <h3 class="block-title">Создаёт ролики под алгоритмы</h3>
+                                <p class="block-text">
+                                    Музыка, темп, стиль — <span class="desktop-text-wrap">всё, что нужно,</span> чтобы ролик
+                                    залетел
+                                </p>
+                            </div>
+                            <div class="possibilities-img-item desktop-block G-flex">
+                                <img src="assets/images/possibilitiesImg2.webp" alt="">
+                            </div>
+
+
+                        </div>
+
+                        <div class="possibilities-column G-flex">
+                            <div class="possibilities-img-item desktop-block G-flex">
+                                <img src="assets/images/possibilitiesImg3.webp" alt="">
+
+                            </div>
+                            <div class="possibilities-info-item roze-item G-flex-column">
+                                <h3 class="block-title">Автоматический монтаж и субтитры</h3>
+                                <p class="block-text">
+                                    Не нужно разбираться <span class="desktop-block">в редакторах — видео</span> уже готово
+                                    к публикации
+                                </p>
+                            </div>
+                            <div class="possibilities-mobile-images">
+                                <div class="possibilities-mobile-img  G-flex">
+                                    <img class="img-desktop" src="assets/images/possibilitiesImg3.webp" alt="">
+                                    <img class="img-mobile" src="assets/images/possibilitiesImg3Mobile.webp" alt="">
+                                </div>
+                                <div class="possibilities-mobile-img G-flex">
+                                    <img class="img-desktop" src="assets/images/possibilitiesImg4.webp" alt="">
+                                    <img class="img-mobile" src="assets/images/possibilitiesImg4Mobile.webp" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="possibilities-img-item desktop-block G-flex">
+                                <img src="assets/images/possibilitiesImg4.webp" alt="">
+                            </div>
+                            <div class="possibilities-info-item orange-item G-flex-column">
+                                <h3 class="block-title">Голос, озвучка, эффект речи</h3>
+                                <p class="block-text">
+                                    Звучишь как профи. Или дай голос Нейросети — и она скажет за тебя
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="possibilities-column G-flex">
+                            <div class="possibilities-info-item primary-item G-flex-column">
+                                <h3 class="block-title">Брендинг и стилизация</h3>
+                                <p class="block-text">
+                                    Видео будет в твоём <span class="desktop-text-wrap">фирменном стиле: шрифты,</span> <span
+                                        class="desktop-text-wrap">цвета, логотип —</span> всё как ты хочешь
+                                </p>
+                            </div>
+                            <div class="possibilities-img-item desktop-block G-flex">
+                                <img src="assets/images/possibilitiesImg5.webp" alt="">
+                            </div>
+
+                            <div class="possibilities-mobile-images">
+                                <div class="possibilities-mobile-img  G-flex">
+                                    <img class="img-desktop" src="assets/images/possibilitiesImg5.webp" alt="">
+                                    <img class="img-mobile" src="assets/images/possibilitiesImg5Mobile.webp" alt="">
+                                </div>
+                                <div class="possibilities-mobile-img G-flex">
+                                    <img class="img-desktop" src="assets/images/possibilitiesImg6.webp" alt="">
+                                    <img class="img-mobile" src="assets/images/possibilitiesImg6Mobile.webp" alt="">
+                                </div>
+                            </div>
+
+                            <div class="possibilities-info-item blueviolet-item G-flex-column">
+                                <h3 class="block-title">Работает по текстовому <span class="mobile-text-wrap">запросу</span></h3>
+                                <p class="block-text">
+                                    Просто напиши: «Сделай <span class="mobile-text-wrap">мотивационный ролик про утренние</span> <span class="mobile-text-wrap">привычки в стиле блогеров</span>
+                                    из IG» — и получи готовый клип
+                                </p>
+                            </div>
+                            <div class="possibilities-img-item  desktop-block G-flex">
+                                <img src="assets/images/possibilitiesImg6.webp" alt="">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="howWork" class="how-works-section section-bg animate-section">
+            <div class="container">
+                <div class="section-tag"><b class="text-gradient">Как работает</b></div>
+                <div class="section-titles">
+                    <h2>Простой процесс в 4 шага</h2>
+                    <p>Создать вирусный ролик с помощью <span class="text-wrap">нейросети — проще, чем кажется</span></p>
+                </div>
+
+                <div class="how-works-cnt block-cnt G-flex">
+                    <div class="how-works-items G-flex">
+
+                        <div class="works-item G-flex-column">
+                            <h3 class="block-title">01. Опиши идею</h3>
+                            <p class="block-text">В 1–2 предложениях: например, «шортс <span class="mobile-text-wrap">про силу дисциплины» или «рилс</span>
+                                про вред сладкого»</p>
+                        </div>
+                        <div class="works-item G-flex-column">
+                            <h3 class="block-title">02. Получи сценарий</h3>
+                            <p class="block-text">
+                                Алгоритм придумает структуру ролика, <span class="mobile-text-wrap">добавит цепляющее начало, интригу</span> и сильный финал
+                            </p>
+                        </div>
+
+                        <div class="works-item G-flex-column">
+                            <h3 class="block-title">03. Сгенерируй ролик</h3>
+                            <p class="block-text">
+                                Нейросеть сама подберёт музыку, <span class="mobile-text-wrap">озвучит, наложит субтитры</span> и акценты — как монтажёр
+                                <span class="mobile-text-wrap">и режиссёр в одном</span>
+                            </p>
+                        </div>
+
+                        <div class="works-item G-flex-column">
+                            <h3 class="block-title">04. Опубликуй и расти</h3>
+                            <p class="block-text">
+                                Готовый Reels или Shorts загружай <span class="mobile-text-wrap">сразу в соцсети. Алгоритмы любят</span> вовлечённый контент —
+                                рост <span class="mobile-text-wrap">не заставит себя ждать</span>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="how-works-info G-flex-column">
+                        <h3>Напиши первую идею — <span class="mobile-text-wrap">получи ролик за пару минут</span></h3>
+                        <div class="works-info-icon G-flex">
+                            <img src="assets/images/worksIcon.webp" alt="">
+                        </div>
+                        <button class="small-bnt">Попробовать бесплатно</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="tools" class="tools-section animate-section section">
+            <div class="container">
+                <div class="tools-body">
+                    <div class="section-tag"><b class="text-gradient">Инструменты</b></div>
+                    <div class="section-titles">
+                        <h2>Выберите с чего начать</h2>
+                        <p>Полный набор инструментов для генерации <span class="mobile-text-wrap">роликов</span></p>
+                    </div>
+
+                    <div class="tools-items block-cnt G-flex">
+                        <div class="tools-item G-flex-column">
+                            <h3 class="block-title">Генератор роликов по вашему <span class="mobile-text-wrap">описанию</span></h3>
+                            <p>Просто введите идею или тему — <span class="mobile-text-wrap">получите Reels/Shorts, готовый</span> к публикации</p>
+
+                            <button class="btn-arrow G-align-center">
+                                <span>Попробовать</span>
+                                <i class="icon icon-arrow"></i>
+                            </button>
+                        </div>
+
+                        <div class="tools-item G-flex-column">
+                            <h3 class="block-title">Голосовая озвучка и субтитры <span class="mobile-text-wrap">в один клик</span></h3>
+                            <p>
+                                Нейросеть озвучит ролик или добавит <span class="mobile-text-wrap">выразительные субтитры — даже если</span> вы не хотите
+                                говорить в кадре
+                            </p>
+
+                            <button class="btn-arrow G-align-center">
+                                <span>Попробовать</span>
+                                <i class="icon icon-arrow"></i>
+                            </button>
+                        </div>
+
+                        <div class="tools-item G-flex-column">
+                            <h3 class="block-title">Автоматическое выделение <span class="mobile-text-wrap">«крючков» и CTA</span></h3>
+                            <p>
+                                Нейросеть вставит нужные акценты: <span class="mobile-text-wrap">вопрос, интригу, призыв к действию —</span> чтобы ролик
+                                смотрели до конца
+                            </p>
+
+                            <button class="btn-arrow G-align-center">
+                                <span>Попробовать</span>
+                                <i class="icon icon-arrow"></i>
+                            </button>
+                        </div>
+
+                        <div class="tools-item G-flex-column">
+                            <h3 class="block-title">Встроенная библиотека <span class="mobile-text-wrap">трендов</span></h3>
+                            <p>
+                                Алгоритмы подбирают музыку, стиль, <span class="mobile-text-wrap">темы — всё, что сейчас «залетает»</span> в Instagram, TikTok
+                                и Shorts
+                            </p>
+
+                            <button class="btn-arrow G-align-center">
+                                <span>Попробовать</span>
+                                <i class="icon icon-arrow"></i>
+                            </button>
+                        </div>
+
+                        <div class="tools-item G-flex-column">
+                            <h3 class="block-title">Стилизация под ваш бренд</h3>
+                            <p>
+                                Шрифты, цвета, логотип, <span class="mobile-text-wrap">оформление — ролики будут в вашем</span> фирменном стиле с первой
+                                секунды
+                            </p>
+
+                            <button class="btn-arrow G-align-center">
+                                <span>Попробовать</span>
+                                <i class="icon icon-arrow"></i>
+                            </button>
+                        </div>
+
+                        <div class="tools-item G-flex-column">
+                            <h3 class="block-title">Умный черновик контент-план</h3>
+                            <p>
+                                После 3–5 роликов нейросеть сама <span class="mobile-text-wrap">предложит, что снимать дальше,</span> чтобы расти — как будто
+                                <span class="mobile-text-wrap">у вас есть личный креативный</span> продюсер
+                            </p>
+
+                            <button class="btn-arrow G-align-center">
+                                <span>Попробовать</span>
+                                <i class="icon icon-arrow"></i>
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews-section animate-section section-bg section">
+            <div class="container">
+                <div class="reviews-body">
+                    <div class="section-tag"><b class="text-gradient">Отзывы</b></div>
+                    <div class="section-titles">
+                        <h2>Пользователи выбирают нас</h2>
+                        <p>Сотни пользователей по всему миру доверяют Нейросети для создания
+                            <span class="desktop-text-wrap">своих лучших работ.
+                        Присоединяйтесь к нам и убедитесь в этом <span class="mobile-text-wrap">сами!</span></span>
+                        </p>
+                    </div>
+
+                    <div class="reviews-media G-flex">
+                        <img src="assets/images/reviewsMedia.webp" alt="">
+                    </div>
+
+                    <div class="reviews-slider">
+                        <div class="reviews-swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">Ролики получаются реально кликабельные. Делаю 3-4 в день
+                                            без монтажа — просто пишу идею и получаю результат.</p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Егор Синицын</h4>
+                                                <p>Маркетолог</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>11 февраля</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Нейросеть буквально читает мои мысли. Просила "ролик как у Ким", и она
+                                            выдала готовый клип с нужным вайбом.
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Анна Левина</h4>
+                                                <p>Бьюти-блогер</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>19 мая</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Сильно экономит время. Мои ученики спрашивают, где я монтирую такие крутые
+                                            видео. А я просто пишу Нейросети.
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Дмитрий Жуков</h4>
+                                                <p>Онлайн-преподаватель</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>11 мая</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Раньше тратила по 3–4 часа на монтаж одного видео. Теперь просто пишу идею —
+                                            и Нейросеть делает всё остальное. Это магия!
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Мария Громова</h4>
+                                                <p>Копирайтер</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>06 мая</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Нейросеть выдает ролики, которые реально набирают охваты. Без лишних
+                                            заморочек — задал тему, получил готовый контент.
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Артём Синицын</h4>
+                                                <p>Владелец онлайн-школы</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>05 мая</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Удивлена, насколько точно она улавливает тональность и делает цепляющий
+                                            монтаж. Мои клиенты в восторге.
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Светлана Кузнецова</h4>
+                                                <p>SMM-специалист</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>24 апреля</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Это лучший инструмент для тех, кто хочет выкладывать каждый день. Контент
+                                            теперь делается сам.
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Илья Богданов</h4>
+                                                <p>TikTok-криэйтор</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>11 апреля</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Я не умею монтировать, но теперь это не проблема. Просто описываю, что хочу
+                                            — и получаю видео, будто его делал профи.
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Екатерина Орлова</h4>
+                                                <p>Маркетолог</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>08 апреля</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews-slide">
+                                        <div class="reviews-slide-icon G-flex">
+                                            <img src="assets/images/reviewsSlideIcon.webp" alt="">
+                                        </div>
+                                        <p class="reviews-text">
+                                            Хотел продвигать личный бренд, но не знал, как. С Нейросетью — всё пошло:
+                                            первые клиенты пришли через Reels!
+                                        </p>
+                                        <div class="reviews-description G-justify-between">
+                                            <div class="reviews-author">
+                                                <h4>Николай Савельев</h4>
+                                                <p>Финансовый консультант</p>
+                                            </div>
+                                            <div class="reviews-info">
+                                                <div class="reviews-icons G-align-center">
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                    <i class="icon icon-star"></i>
+                                                </div>
+                                                <p>27 марта</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews-pagination swiper-pagination"></div>
+                            <div class="reviews-arrows G-align-center">
+                                <div class="reviews-arrow reviews-arrow-prev swiper-button-prev">
+                                    <i class="icon arrow-right"></i>
+                                </div>
+                                <div class="reviews-arrow reviews-arrow-next swiper-button-next">
+                                    <i class="icon arrow-right"></i>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section id="faq" class="faq-section section">
+            <div class="container">
+                <div class="faq-body ">
+                    <div class="section-tag"><b class="text-gradient">FAQ</b></div>
+                    <div class="section-titles">
+                        <h2>Частые вопросы</h2>
+                        <p>Здесь — всё, что нужно знать перед стартом</p>
+                    </div>
+
+
+                    <div class="faq-items  G-flex-column">
+
+                        <div class="faq-item active">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Что умеет эта нейросеть?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Она генерирует короткие видео (Reels, Shorts, TikTok) по твоему сценарию, тексту или
+                                    даже просто идее. Можно задать стиль, музыку, персонажей — и получить готовый ролик.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Я ничего не умею в монтаже. Мне подойдёт?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да! Нейросеть делает всё за тебя — от визуала до переходов и фона. Даже если никогда
+                                    не открывал монтажные программы, ты всё равно сможешь сделать крутой клип.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Нужно ли загружать видео или <span class="mobile-text-wrap">можно с нуля?</span></p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Можно и с нуля. Просто опиши, что хочешь — и нейросеть сама подберёт кадры,
+                                    сгенерирует визуал и подстроит под формат Reels.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Можно ли использовать свой <span class="mobile-text-wrap">голос или музыку?</span></p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Да, загрузи свою дорожку — и ролик подстроится под неё. Или выбери музыку из
+                                    встроенной библиотеки.
+                                    А если ролик не понравится?
+                                    Можешь пересобрать с другими параметрами, стилем или ритмом. Нейросеть не устаёт и
+                                    генерирует сколько хочешь — пока не получится идеально.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Какие форматы <span class="mobile-text-wrap">поддерживаются?</span></p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Все популярные: вертикальные видео 9:16 (идеально для Instagram, TikTok, YouTube
+                                    Shorts), можно экспортировать в разных разрешениях и длительностях.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Можно ли добавить текст, титры <span class="mobile-text-wrap">или субтитры?</span></p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Конечно! Укажи текст — и он будет встроен в ролик: с анимацией, по таймингам, в
+                                    нужном стиле. Можно даже автосаб по аудио сделать.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faq-item ">
+                            <div class="faq-item-header G-justify-between">
+                                <p>Где потом использовать видео?</p>
+                                <div class="faq-item-icon G-center"></div>
+                            </div>
+                            <div class="faq-item-sub">
+                                <p>
+                                    Где хочешь — Instagram, TikTok, YouTube, Telegram, сторис, сайт. Экспорт — одним
+                                    кликом.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section class="trust-section animate-section section">
+            <div class="container">
+                <div class="trust-body">
+                    <h3><span class="mobile-text-wrap">Напиши первую</span> идею — <span class="desktop-text-wrap">получи ролик <span class="mobile-text-wrap">за пару минут</span></span></h3>
+                    <button class="big-bnt">Попробовать бесплатно</button>
+
+                    <div class="trust-decor">
+                        <img class="trust-img-desktop" src="assets/images/trustDecor.webp" alt="">
+                        <img class="trust-img-mobile" src="assets/images/trustDecorMobile.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer animate-section">
+        <div class="container">
+            <div class="footer-body G-align-center">
+
+                <a class="footer-logo" href="">
+                    <img src="assets/images/footerLogo.svg" alt="">
+                </a>
+                <nav class="footer-nav">
+                    <ul class="G-align-center">
+                        <li>
+                            <a href="#possibilities">Возможности</a>
+                        </li>
+                        <li>
+                            <a href="#howWork">Как работает</a>
+                        </li>
+                        <li>
+                            <a href="#tools">Инструменты</a>
+                        </li>
+                        <li>
+                            <a href="#reviews">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn-register">Регистрация бесплатно</button>
+            </div>
+            <p class="footer-clue">© 2025 Нейросеть. Все права защищены</p>
+        </div>
+
+        <div class="footer-decor-mobile G-flex">
+            <img src="assets/images/footerDecorMobile.webp" alt="">
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="assets/js/swiper.js"></script>
+<script src="assets/js/index.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+

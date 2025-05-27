@@ -1,0 +1,170 @@
+.footer {
+    padding: 33px 0;
+    background: var(--black);
+    position: relative;
+    z-index: 2;
+}
+
+.footer-body {
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-nav {
+    margin-left: 85px;
+}
+
+.footer-nav ul {
+    gap: 44px;
+}
+
+.footer-nav ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.footer-nav ul li a:hover {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: var(--orange-gradient);
+}
+
+.footer-clue {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: var(--gray5);
+
+}
+
+.footer-decor-mobile {
+    display: none;
+}
+
+.footer {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.footer.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer-logo,
+.footer-nav,
+.footer .btn-register,
+.footer-clue {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+.footer-decor-mobile{
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.footer.show .footer-logo {
+    transition-delay: 0.2s;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer.show .footer-nav {
+    transition-delay: 0.4s;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer.show .btn-register {
+    transition-delay: 0.6s;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer.show .footer-clue {
+    transition-delay: 0.8s;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer.show .footer-decor-mobile {
+    transition-delay: 1s;
+    opacity: 1;
+}
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1400px) {
+
+
+}
+
+@media (max-width: 1200px) {
+    .footer-clue {
+        margin-top: 24px;
+    }
+
+    .footer-body {
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .footer-body {
+        flex-direction: column;
+    }
+
+    .footer-clue {
+        text-align: center;
+    }
+
+    .footer-nav {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 576px) {
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer {
+        padding: 196px 0 48px 0;
+    }
+
+    .footer-decor-mobile {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 360px;
+    }
+
+    .footer-clue {
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+}
+
+@media (max-width: 456px) {
+
+
+}
