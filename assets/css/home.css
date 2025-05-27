@@ -1382,6 +1382,7 @@
 
     .how-works-info button {
         margin: auto auto 0 auto;
+        padding: 12px 30.5px;
     }
 
     .tools-item {
@@ -1651,6 +1652,11 @@
     .about-us-info {
         max-width: 328px;
         margin: 24px auto 0;
+    }
+    .how-works-info h3 {
+        font-size: 20px;
+        line-height: 120%;
+
     }
 }
 
