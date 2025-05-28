@@ -34,31 +34,37 @@
     opacity: 1;
     transform: translateY(0);
 }
+
 .hero-section.show .hero-info h1 {
     transition-delay: 0.4s;
     opacity: 1;
     transform: translateY(0);
 }
+
 .hero-section.show .hero-info p {
     transition-delay: 0.6s;
     opacity: 1;
     transform: translateY(0);
 }
+
 .hero-section.show .hero-info button {
     transition-delay: 0.2s;
     opacity: 1;
     transform: translateY(0);
 }
+
 .hero-section.show .hero-media-picture {
     transition-delay: 1s;
     opacity: 1;
     transform: translateY(0);
 }
+
 .hero-section.show .hero-icons {
     transition-delay: 1.2s;
     opacity: 1;
     transform: translateY(0);
 }
+
 .hero-section.show .star-struck {
     transition-delay: 1.4s;
     opacity: 1;
@@ -204,6 +210,7 @@
     opacity: 1;
     transform: translateY(0);
 }
+
 .about-us-info {
     margin-top: 24px;
     font-weight: 600;
@@ -280,6 +287,26 @@
     width: 100%;
     min-height: 465px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+    height: 36px;
+    width: 100%;
+}
+.bottom-bar img{
+    width: 100%;
+    object-fit: cover;
+}
+.right-bar{
+    position: absolute;
+    right: 13px;
+    bottom: 75px;
+    max-width: 18px;
 }
 
 .about-item-img {
@@ -364,11 +391,13 @@
     opacity: 1;
     transform: translateY(0);
 }
+
 .possibilities-section.show .possibilities-column:nth-child(2) {
     transition-delay: 1s;
     opacity: 1;
     transform: translateY(0);
 }
+
 .possibilities-section.show .possibilities-column:nth-child(3) {
     transition-delay: 1.2s;
     opacity: 1;
@@ -748,6 +777,7 @@
     opacity: 1;
     transform: translateY(0);
 }
+
 .tools-item:hover .btn-arrow i {
     transform: rotate(-45deg);
     background: var(--white);
@@ -916,7 +946,6 @@
 }
 
 
-
 .reviews-section.show .reviews-slider {
     transition-delay: 1s;
     opacity: 1;
@@ -941,7 +970,8 @@
 
 
 }
-.reviews-arrow:hover{
+
+.reviews-arrow:hover {
     background: #FF6164;
 
 }
@@ -1181,6 +1211,7 @@
     background: var(--orange-gradient);
 
 }
+
 .trust-section {
     opacity: 0;
     transform: translateY(50px);
@@ -1198,6 +1229,7 @@
     transform: translateY(40px);
     transition: all 0.8s ease;
 }
+
 .trust-section .trust-decor {
     transition: all 0.7s ease;
     opacity: 0;
@@ -1220,6 +1252,7 @@
     transition-delay: 0.6s;
     opacity: 1;
 }
+
 .trust-body {
     min-height: 290px;
     background: var(--white5);
@@ -1390,6 +1423,7 @@
 
 
     }
+
     .footer-nav ul {
         gap: 38px;
         flex-direction: column;
@@ -1455,15 +1489,10 @@
         position: relative;
         z-index: 2;
         max-width: 328px;
-        min-height: 431px;
     }
 
     .about-info-item .block-text {
         flex: unset;
-    }
-
-    .about-item-img img {
-        object-fit: unset;
     }
 
     .about-info-item {
@@ -1517,7 +1546,9 @@
 
     .tools-item {
         min-height: 209px;
-        padding: 24px;.works-item::before
+        padding: 24px;
+
+        .works-item::before
 
     }
 
@@ -1625,34 +1656,43 @@
 
 
     }
+
     .works-item::before {
         padding: 1.1px;
 
 
     }
+
     .faq-item {
         padding: 8px 4px 8px 20px;
 
     }
-    .faq-item-header p{
-        padding: 8px 0 ;
+
+    .faq-item-header p {
+        padding: 8px 0;
     }
+
     .trust-section {
         padding: 60px 0;
     }
-    .trust-body{
-        margin: 0 ;
+
+    .trust-body {
+        margin: 0;
     }
-    .trust-body .big-bnt{
+
+    .trust-body .big-bnt {
         padding: 30px 42.5px;
     }
+
     .trust-decor {
         max-width: 320px;
     }
+
     .about-us-info {
         max-width: 328px;
         margin: 24px auto 0;
     }
+
     .how-works-info h3 {
         font-size: 20px;
         line-height: 120%;
